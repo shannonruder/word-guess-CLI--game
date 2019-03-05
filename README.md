@@ -1,5 +1,9 @@
 # Constructor CLI Word Guess Using Advanced JavaScript
 
+**Creator**: `Shannon Ruder`
+
+**Created on**: `Mar 04 2019`
+
 ### Overview
 
 
