@@ -9,8 +9,8 @@
 
 This assignment is a Word Guess command-line game using constructor functions.
 
+* [To clone or download the game, here is the github link:](https://shannonruder.github.io/word-guess-CLI-game/)
 
-To clone or download the game, here is the github link: (https://shannonruder.github.io/word-guess-CLI-game/)
 
 ## Instructions
 
