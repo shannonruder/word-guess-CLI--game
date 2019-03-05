@@ -1,0 +1,29 @@
+{
+  "name": "word-guess-cli-game",
+  "version": "1.0.0",
+  "description": "command line word guessing game using javascript constructors",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shannonruder/word-guess-CLI-game.git"
+  },
+  "keywords": [
+    "javascript",
+    "word-guess-CLI",
+    "game",
+    "node",
+    "game"
+  ],
+  "author": "Shannon Ruder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shannonruder/word-guess-CLI-game/issues"
+  },
+  "homepage": "https://github.com/shannonruder/word-guess-CLI-game#readme",
+  "dependencies": {
+    "inquirer": "^6.2.2"
+  }
+}
