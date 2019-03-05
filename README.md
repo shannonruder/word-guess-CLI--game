@@ -1,4 +1,4 @@
-# Advanced JavaScript Assignment: Constructor Word Guess
+# Constructor CLI Word Guess Using Advanced JavaScript
 
 ### Overview
 
