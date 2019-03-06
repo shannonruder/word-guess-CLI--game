@@ -15,11 +15,11 @@ This assignment is a Word Guess command-line game using constructor functions.
 ## Instructions
 
 1. To run this application, from the terminal/bash window, first run npm install.
-    • node package modules used in this application are  `inquirer` or `prompt`.
+    • node package modules used in this application are  `inquirer` and `prompt`.
 
 2. Second, to start the game, type the command:  'node index.js'.
 
-3. The game uses advanced javascript. The **index.js** contains logic for a word guessing game. It randomly selects a word and uses the `Word` constructor to store it.  It prompts the user for each guess and keeps track of the user's remaining guesses. Finally, it calls out to a:
+3. The game uses advanced javascript. The **index.js** contains logic for a word guessing game. It randomly selects a word and from an answers.js file uses the `Word` constructor to store it.  It prompts the user for each guess and keeps track of the user's remaining guesses. Finally, it calls out to a:
 
 
 **letter.js** file with a constructor called 'Letter'.  `Letter.js` *does not* `require` any other files. This contructor either displays an underlying character or a blank placeholder (such as an underscore), depending on whether or not the user has guessed the letter. The 'Letter' constructor defines:
