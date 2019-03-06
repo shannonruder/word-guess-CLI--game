@@ -1,8 +1,5 @@
-// @author: Shannon Ruder
-// @github: undacat
-// @comment: word-guess-CLI-game using Node
 
-// Your answers.js file will randomly select a word for the player.
+// The answers.js file will randomly select a word for the user.
 
 
 // Create a list of words
