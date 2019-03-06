@@ -1,6 +1,4 @@
-// @author: Shannon Ruder
-// @github: undacat
-// @comment: word-guess-CLI-game using Node
+
 
 // Constructor File
 // letter.js should control whether or not a letter appears as a "_" or as itself on-screen.
@@ -13,7 +11,7 @@ var lettersToDisplay = function(word, goodGuesses){
     this.goodLetters = goodGuesses;
     this.displayText = '';
   
-    // By Defualt, we start as winner is false (to avoid a premature win)
+    // By Default, we start as winner is false (to avoid a premature win)
     this.winner = false;
   
     // Function to display guessing game word to user
