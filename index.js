@@ -2,8 +2,9 @@
 // @github: undacat
 // @comment: word-guess-CLI-game using Node
 
-// index.js will contain the logic of your app. Running it in Terminal/Bash will start the game.
-// The app should end when a player guesses the correct word or runs out of guesses.
+// index.js contains the logic of this app. Running it in Terminal/Bash will start the game.
+// The app should end when a player guesses the correct word or runs out of guesses. The user is
+// asks whether or not they want to play again.
 
 
 
@@ -29,23 +30,40 @@ var lettersAlreadyGuessed = [];
 var lettersCorrectlyGuessed = [];      
 var displayGuessingGame;
 var logoDisplay = () => {
-console.log('__________________________________________________');
-console.log('____________   _   _   _   _   _   _  ____________');       
-console.log('____________  / \ / \ / \ / \ / \ / \ ____________');        
-console.log('____________ ( C ( O ( D ( I ( N ( G ) ____________');       
-console.log('____________  \_/ \_/ \_/ \_/ \_/ \_/  ____________');       
-console.log('____________     _   _   _   _         ____________');       
-console.log('____________    / \ / \ / \ / \        ____________');     
-console.log('____________   ( W ( O ( R ( D )       ____________');       
-console.log('____________    \_/ \_/ \_/ \_/         ____________');     
-console.log('____________    _   _   _   _   _   _   _   _ ______'); 
-console.log('____________   / \ / \ / \ / \ / \ / \ / \ / \ _____');
-console.log('____________  ( G ( U ( E ( S ( S ( I ( N ( G )_____');
-console.log('____________   \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ _____');
-console.log('____________     _   _   _   _    __________________');              
-console.log('____________    / \ / \ / \ / \   __________________');             
-console.log('____________   ( G ( A ( M ( E )  __________________');              
-console.log('____________    \_/ \_/ \_/ \_/   __________________');              
+console.log('======================================================');               
+console.log('===     ====    ===       ==    =  =======  ==      ==');                 
+console.log('==  ===  ==  ==  ==  ====  ==  ==   ======  =   ==   =');                  
+console.log('=  =======  ====  =  ====  ==  ==    =====  =  ====  =');                  
+console.log('=  =======  ====  =  ====  ==  ==  ==  ===  =  =======');                  
+console.log('=  =======  ====  =  ====  ==  ==  ===  ==  =  =======');                 
+console.log('=  =======  ====  =  ====  ==  ==  ====  =  =  ===   =');                  
+console.log('=  =======  ====  =  ====  ==  ==  =====    =  ====  =');                  
+console.log('==  ===  ==  ==  ==  ====  ==  ==  ======   =   ==   =');                  
+console.log('===     ====    ===       ==    =  =======  ==      ==');                  
+console.log('======================================================');                  
+console.log('===========================================');                            
+console.log('=  ====  ====  ===    ===       ==       ==');                            
+console.log('=  ====  ====  ==  ==  ==  ====  =  ====  =');                             
+console.log('=  ====  ====  =  ====  =  ====  =  ====  =');                             
+console.log('=  ====  ====  =  ====  =  ===   =  ====  =');                             
+console.log('=   ==    ==  ==  ====  =      ===  ====  =');                             
+console.log('==  ==    ==  ==  ====  =  ====  =  ====  =');                             
+console.log('==  ==    ==  ==  ====  =  ====  =  ====  =');                             
+console.log('===    ==    ====  ==  ==  ====  =  ====  =');                             
+console.log('====  ====  ======    ===  ====  =       ==');                             
+console.log('===========================================');                             
+console.log('======================================');                                  
+console.log('==      =====  ====  =====  =        =');                                  
+console.log('=   ==   ===    ===   ===   =  =======');                                 
+console.log('=  ====  ==  ==  ==  =   =  =  =======');                                 
+console.log('=  =======  ====  =  == ==  =  =======');                                  
+console.log('=  =======  ====  =  =====  =      ===');                                 
+console.log('=  ===   =        =  =====  =  =======');                                  
+console.log('=  ====  =  ====  =  =====  =  =======');                                  
+console.log('=   ==   =  ====  =  =====  =  =======');                                  
+console.log('==      ==  ====  =  =====  =        =');                                  
+console.log('======================================');                               
+                        
 console.log('__________________________________________________________');
 console.log('|  Use your letter keys to try and guess the hidden word |');
 console.log('__________________________________________________________\n');
